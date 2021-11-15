@@ -2,12 +2,12 @@
 
 
 //css starts here
-        h1  {
-            font-size : 24pt;
-            color : red;
-            text-decoration: underline;
-            font-family: tahoma,helvetica, sans-serif;
-        }
+h1 { 
+  font-size: 24pt;
+  text-decoration: underline;
+  font-family: tahoma ,helvetica , sans-serif;
+  color:red;
+} 
 
         em  {
             font-style : normal;
