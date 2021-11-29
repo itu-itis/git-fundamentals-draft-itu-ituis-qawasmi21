@@ -8,13 +8,34 @@ em {
     font-weight: bold;
 }
 
-h1 { 
+h1 {
+    text-align: center;
+    border: thick solid red;
     font-size: 24pt;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: tahoma ,helvetica , sans-serif;
     color:red;
+    padding: 1ex;
+    width: 50%;
 }
 
 ul{
     list-style: square;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li:first-child {
+    border: thick solid green;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 1ex;
+    width: 40%;
+}
+
+p.centered {
+    text-align: center;
+    width: 50 %;
 }
