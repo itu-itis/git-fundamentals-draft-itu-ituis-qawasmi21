@@ -13,24 +13,31 @@
         <!-- linking external css rules ends here-->
 
     </head>
-    <body>
+    <body onload="document.body.style.backgroundColor='white'" onresize="document.body.style.backgroundColor='lightblue'">
 
         <p class = "centered">
             <em> omar qawasmi 
                 <br> 150210905
             </em>
         </p>
-        <p> evolution of homo sapians</p>
+        <p>evolution of homo sapians</p>
 
-        <ul>
 
+        <ul id='ul-01' onmouseover="document.getElementById('ul-01').style.backgroundColor='purple'">
             <li> Homo habilis </li> 
-            <li> Homo sapiens </li>
+            <li> Homo erectus </li>
             <li> Homo disconnectus </li>
+            <li> Homo floresiensis(hobit) </li>
+            <li> Homo sapiens </li>
+            <ul id='insideUL' onmouseover="document.getElementById('insideUL').style.backgroundColor='orange'">
+                <li> homo sapiens sapiens</li>
 
+            </ul>
         </ul>
-        <h1>
-            <strong>evolution of homo sapians</strong>
+       
+        
+        <h1 onmouseover="style.color='orange'; document.h1.style.backgroundColor='lighlgreen'" onmouseout="style.color='red' document.h1.style.backgroundColor='white'"> 
+            <strong>Human evolution</strong>
         </h1> 
         <h2>the image below is a link try it.</h2>
         <a href= "https://www.biologyonline.com/dictionary/homo-sapiens-sapiens">
